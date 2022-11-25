@@ -17,6 +17,7 @@ export const TableModal = ({ visible, onClose, onSave }: TableModalProps) => {
   function handleSave() {
     onSave(table);
     onClose();
+    setTable("");
   }
   return (
     <Modal transparent visible={visible} animationType="fade">
