@@ -8,7 +8,6 @@ export const Board = styled.div`
   flex: 1;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 
   // o sinal de > indica que esse estilo será aplicado apenas para headers que são filhos diretos (dentro do arquivo) do board.
   > header {
